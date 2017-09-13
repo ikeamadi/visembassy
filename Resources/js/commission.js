@@ -7,7 +7,10 @@ function updateTotal() {
 }
 
 amount.addEventListener('input', function() {
-	  var intResult = Number(amount.value) + 15;
-    total.value = "$" + intResult.toString();
-    updateTotal();
+	
+	if (amount.value === '') {total.value = ''} 
+	else {
+		var intResult = Number(amount.value) + 15;
+		total.value = "$" + intResult.toString();
+		updateTotal();}
 });
