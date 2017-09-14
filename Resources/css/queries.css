@@ -115,5 +115,22 @@
 @media only screen and (max-width: 480px) {
     section {padding: 25px 0;}
     contact-form {width: 100%;}
-    
+	
+	h1 {font-size: 160%; }
+	
+	#btn-show-more { margin-top: 15px;}
+	
+	.main-nav {
+        float: left;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+	
+	.logo {
+		height: 50px;
+	}
+	
+	 .main-nav li a:link,
+	 .main-nav li a:visited { padding: 5px 0;}
+	 
 }
